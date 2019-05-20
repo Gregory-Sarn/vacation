@@ -185,11 +185,7 @@ width: calc((100% - 12rem)/3);
 		width: 45rem;
 		height: 30rem;
 }
-@media only screen and (max-width: 376px){
-.composition_photo {
-    width: 35rem;
-    height: 20rem;
-}
+
 .mountain{
 position: absolute;
 top: 90%;
@@ -224,30 +220,24 @@ left: 58%;
 
 @media only screen and (max-width: 768px){
   .mountain{
-    top: 72%;
-left: 184%;
+left: 178%;
   }
   .waterfall{
-    top: 100%;
-left: 184%;
+left: 198%;
   }
   .forest{
-    top: 128%;
 left:184%;
   }
 }
 @media only screen and (max-width: 376px){
   .mountain{
-    top: 75%;
-left: 260%;
+left: 220%;
   }
   .waterfall{
-    top: 100%;
 left: 260%;
   }
   .forest{
-    top:125%;
-left:260%;
+left:230%;
   }
 }
 .composition_photo:hover {
@@ -255,11 +245,6 @@ left:260%;
   height: 34rem;
   z-index: 10;
 }
-@media only screen and (max-width: 800px){
-.composition_photo{
-   pointer-events: none;
-}
-  }
 	.Content_Block_3{
 position: absolute;
 top: 155%;
@@ -679,12 +664,12 @@ h1 {
 
 @media only screen and (max-width: 768px){
   .box{
-    left: 105%;
+    left: 100%;
   }
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 768px){
   .box{
-    left: 170%;
+    left: 173%;
   }
 }
 .fixed{
@@ -721,14 +706,10 @@ h1 {
 
 @media only screen and (max-width: 768px){
   .overlay{
-    width: 210rem;
-  }
-}
-@media only screen and (max-width: 376px){
-.overlay{
     width: 150rem;
   }
 }
+
 .popup h2 {
   margin-top: 0;
   color: #333;
