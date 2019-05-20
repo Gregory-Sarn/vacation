@@ -29,33 +29,17 @@ html{
 		-webkit-clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 89%);
 		clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 89%);
 	}
-	.title{
-		font-family: 'Permanent Marker', cursive;
-		font-size: 11.5rem;
-		position: absolute;
-	top: 18%;
-	left:22%;
-		color: white;
-}
-
-@media only screen and (max-width: 376px){
   .title{
-    left: 17%;
-  }
+    font-family: 'Permanent Marker', cursive;
+    font-size: 11.5rem;
+    position: absolute;
+  top: 18%;
+  left:22%;
+    color: white;
 }
-
-	.text{
-		font-family: 'Abel', sans-serif;
-		font-size: 4rem;
-	position: absolute;
-	top: 45%;
-	left:41%;
-		color: white;
-
-	}
-	@media only screen and (max-width: 1025px){
+  @media only screen and (max-width: 1025px){
 .Content_Block_1{
-  width: 114rem;
+  width: 117%;
  }
  .title{
   font-size: 9rem;
@@ -72,9 +56,21 @@ html{
   }
 }
 @media only screen and (max-width: 376px){
-.Content_Block_1{
-  width: 415%;
+  .Content_Block_1{
+  width: 413%;
   }
+  .title{
+    left: 13.1%;
+  }
+}
+	
+	.text{
+		font-family: 'Abel', sans-serif;
+		font-size: 4rem;
+	position: absolute;
+	top: 45%;
+	left:41%;
+		color: white;
 }
 	
   html, body {
@@ -161,7 +157,11 @@ html{
 	left:16%;
 		color: black;
 	}
-
+@media only screen and (max-width: 1025px){
+.Mid_H{
+  left: 15%;
+}
+}
 @media only screen and (max-width: 768px){
   .Mid_H{
     left: 50%;
@@ -182,6 +182,11 @@ top:117%;
 left:10%;
 width: calc((100% - 12rem)/3);
 	}
+   @media only screen and (max-width: 1025px){
+.Info{
+  width: 45rem;
+   }
+ }
   @media only screen and (max-width: 768px){
     .Info{
       width: 60rem;
@@ -196,6 +201,18 @@ width: calc((100% - 12rem)/3);
 	.composition_photo {
 		width: 45rem;
 		height: 30rem;
+}
+@media only screen and (max-width: 1025px){
+  .composition_photo {
+    width: 40rem;
+    height: 25rem;
+ }
+}
+ @media only screen and (max-width: 768px){
+ .composition_photo {
+    width: 50rem;
+    height: 30rem;
+ }
 }
  @media only screen and (max-width: 376px){
 .composition_photo {
@@ -234,7 +251,20 @@ left: 58%;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
 	}
-
+@media only screen and (max-width: 1025px){
+  .mountain{
+    top: 70%;
+left: 65%;
+  }
+  .waterfall{
+left: 65%;
+top: 100%;
+  }
+  .forest{
+left:65%;
+top: 130%;
+  }
+}
 @media only screen and (max-width: 768px){
   .mountain{
   	top: 72%;
@@ -288,7 +318,12 @@ left: -1%;
 		-webkit-clip-path: polygon(0 22%, 100% 11%, 100% 100%, 0 100%);
 clip-path: polygon(0 22%, 100% 11%, 100% 100%, 0 100%);
 	}
-
+ @media only screen and (max-width: 1025px){
+.Content_Block_3{
+  width: 132%;
+  left: -15%;
+ }
+}
 @media only screen and (max-width: 768px){
   .Content_Block_3{
     width: 280%;
@@ -319,8 +354,13 @@ clip-path: polygon(0 22%, 100% 11%, 100% 100%, 0 100%);
   .Flexbox{
     display: flex;
     justify-content: space-between;
-
   }
+   @media only screen and (max-width: 1025px){
+.Flexbox{
+    display: flex;
+    justify-content: space-between;
+  }
+   }
   .Card-side{
     height: 30rem;
     width: 25rem;
@@ -503,7 +543,11 @@ visibility: visible;
     top: 260%;
     left: 40%;
   }
-
+@media only screen and (max-width: 1025px){
+.Title_3{
+left: 45%;
+ }
+}
 @media only screen and (max-width: 768px){
   .Title_3{
     left: 120%;
@@ -561,7 +605,14 @@ visibility: visible;
     top: 315.5%;
     left: 22%;
   }
-
+@media only screen and (max-width: 1025px){
+  .User-1{
+    left: 26%;
+  }
+  .User-2{
+    left: 26%;
+  }
+}
 @media only screen and (max-width: 768px){
   .User-1{
     left: 47%;
@@ -592,7 +643,14 @@ visibility: visible;
   top: 322%;
   left: 22%;
 }
-
+@media only screen and (max-width: 1025px){
+  .Review-1{
+    left: 26%;
+  }
+  .Review-2{
+    left: 26%;
+  }
+}
 @media only screen and (max-width: 768px){
   .Review-1{
     left: 47%;
@@ -624,7 +682,16 @@ visibility: visible;
   top: 319%;
   left: 40%;
 }
-
+@media only screen and (max-width: 1025px){
+   .Review-text-1{
+    left: 26%;
+    width: 50rem;
+  }
+  .Review-text-2{
+    left: 20%;
+    width: 50rem;
+  }
+}
 @media only screen and (max-width: 768px){
   .Review-text-1{
     left: 45%;
@@ -699,7 +766,11 @@ h1 {
   left: 43%;
 
 }
-
+@media only screen and (max-width: 1025px){
+ h1{
+  left: 35%;
+  width: 50rem;
+ }
 @media only screen and (max-width: 768px){
  h1{
   left: 110%;
@@ -739,7 +810,11 @@ h1 {
 .Click:hover {
   background: #06D85F;
 }
-
+@media only screen and (max-width: 1025px){
+  .box{
+    left: 22%;
+  }
+}
 @media only screen and (max-width: 768px){
   .box{
     left: 105%;
