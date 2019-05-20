@@ -667,6 +667,11 @@ visibility: visible;
   background-size: 240%;
   transition: all .4s;
 }
+@media only screen and (max-width: 900px){
+    .navigation_link{
+      color: black;
+    }
+   }
 .navigation_link:hover, .navigation_link:active{
   background-position: 100%;
   color: rgba(41, 152, 255, 1);
