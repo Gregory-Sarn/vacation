@@ -46,6 +46,16 @@ html{
   left: 15%;
  }
 }
+@media only screen and (max-width: 813px){
+.Content_Block_1{
+  width: 142%;
+ }
+ .title{
+  font-size: 8rem;
+  left: 15%;
+  top: 5%;
+ }
+}
 @media only screen and (max-width: 768px){
 .Content_Block_1{
   width: 277%;
@@ -53,6 +63,7 @@ html{
   .title{
     font-size: 12rem;
     left: 22%;
+    top: 22%
   }
 }
 @media only screen and (max-width: 376px){
@@ -72,7 +83,16 @@ html{
 	left:41%;
 		color: white;
 }
-	
+	@media only screen and (max-width: 813px){
+    .text{
+      top: 35%;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .text{
+      top: 45%;
+    }
+  }
   html, body {
   text-align: center;
   padding-top: 0rem;
@@ -208,6 +228,12 @@ width: calc((100% - 12rem)/3);
     height: 25rem;
  }
 }
+@media only screen and (max-width: 813px){
+  .composition_photo {
+    width: 30rem;
+    height: 15rem;
+ }
+}
  @media only screen and (max-width: 768px){
  .composition_photo {
     width: 50rem;
@@ -265,17 +291,31 @@ left:65%;
 top: 130%;
   }
 }
+@media only screen and (max-width: 813px){
+  .mountain{
+    top: 60%;
+left: 75%;
+  }
+  .waterfall{
+left: 75%;
+top: 92.5%;
+  }
+  .forest{
+left:75%;
+top: 125%;
+  }
+}
 @media only screen and (max-width: 768px){
   .mountain{
   	top: 72%;
-left: 184%;
+left: 175%;
   }
   .waterfall{
-left: 184%;
+left: 175%;
 top: 100%;
   }
   .forest{
-left:184%;
+left:175%;
 top: 128%;
   }
 }
@@ -324,9 +364,17 @@ clip-path: polygon(0 22%, 100% 11%, 100% 100%, 0 100%);
   left: -15%;
  }
 }
+@media only screen and (max-width: 813px){
+.Content_Block_3{
+  width: 157%;
+  left: -15%;
+  height: 105%;
+ }
+}
 @media only screen and (max-width: 768px){
   .Content_Block_3{
     width: 280%;
+    height: 110vh;
   }
 }
 @media only screen and (max-width: 376px){
@@ -548,6 +596,11 @@ visibility: visible;
 left: 45%;
  }
 }
+@media only screen and (max-width: 813px){
+.Title_3{
+left: 51%;
+ }
+}
 @media only screen and (max-width: 768px){
   .Title_3{
     left: 120%;
@@ -613,6 +666,14 @@ left: 45%;
     left: 26%;
   }
 }
+@media only screen and (max-width: 813px){
+  .User-1{
+    left: 31%;
+  }
+  .User-2{
+    left: 31%;
+  }
+}
 @media only screen and (max-width: 768px){
   .User-1{
     left: 47%;
@@ -651,12 +712,24 @@ left: 45%;
     left: 26%;
   }
 }
+@media only screen and (max-width: 813px){
+  .Review-1{
+    left: 31%;
+    top: 295%;
+  }
+  .Review-2{
+    left: 31%;
+    top: 330%;
+  }
+}
 @media only screen and (max-width: 768px){
   .Review-1{
     left: 47%;
+    top: 287%;
   }
   .Review-2{
     left: 47%;
+    top: 322%;
   }
 }
 @media only screen and (max-width: 376px){
@@ -692,14 +765,28 @@ left: 45%;
     width: 50rem;
   }
 }
+@media only screen and (max-width: 813px){
+   .Review-text-1{
+    left: 26%;
+    width: 50rem;
+    top: 289%;
+  }
+  .Review-text-2{
+    left: 20%;
+    width: 50rem;
+    top: 323%;
+  }
+}
 @media only screen and (max-width: 768px){
   .Review-text-1{
     left: 45%;
     width: 50rem;
+    top: 285%;
   }
   .Review-text-2{
     left: 37%;
     width: 50rem;
+    top: 319%;
   }
 }
 @media only screen and (max-width: 376px){
@@ -771,6 +858,11 @@ h1 {
   left: 35%;
   width: 50rem;
  }
+ @media only screen and (max-width: 813px){
+ h1{
+  left: 40%;
+  width: 50rem;
+ }
 @media only screen and (max-width: 768px){
  h1{
   left: 110%;
@@ -815,9 +907,16 @@ h1 {
     left: 22%;
   }
 }
+@media only screen and (max-width: 813px){
+  .box{
+    left: 33%;
+    top: 345%;
+  }
+}
 @media only screen and (max-width: 768px){
   .box{
     left: 105%;
+    top: 340%
   }
 }
 @media only screen and (max-width: 376px){
