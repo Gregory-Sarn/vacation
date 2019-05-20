@@ -445,6 +445,27 @@ clip-path: polygon(0 22%, 100% 11%, 100% 100%, 0 100%);
 	 pointer-events: none;
 }
   }
+  .Hidden-1{
+    visibility: hidden; 
+  }
+  .Hidden-2{
+    visibility: hidden;
+  }
+  .Hidden-3{
+    visibility: hidden;
+  }
+  @media only screen and (max-width:900px){
+    .Hidden-1{
+visibility: visible;
+    }
+    .Hidden-2{
+visibility: visible;
+    }
+    .Hidden-3{
+visibility: visible;
+    }
+  }
+
   .Content_Block_4{
    color: white;
   }
