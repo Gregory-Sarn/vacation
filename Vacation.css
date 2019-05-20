@@ -5,7 +5,6 @@
 --variable-since-i-need-to-use-one:96%;
 }
 
-
 @keyframes fadein {
 0% {opacity:0;}
 25% {opacity:.25;}
@@ -186,7 +185,12 @@ width: calc((100% - 12rem)/3);
 		width: 45rem;
 		height: 30rem;
 }
-
+ @media only screen and (max-width: 376px){
+.composition_photo {
+		width: 35rem;
+		height: 20rem;
+ }
+}
 .mountain{
 position: absolute;
 top: 90%;
@@ -221,13 +225,16 @@ left: 58%;
 
 @media only screen and (max-width: 768px){
   .mountain{
-left: 178%;
+  	top: 72%;
+left: 184%;
   }
   .waterfall{
-left: 198%;
+left: 184%;
+top: 100%;
   }
   .forest{
 left:184%;
+top: 128%;
   }
 }
 @media only screen and (max-width: 376px){
@@ -241,10 +248,17 @@ left: 260%;
 left:230%;
   }
 }
+
 .composition_photo:hover {
   width: 49rem;
   height: 34rem;
   z-index: 10;
+}
+
+@media only screen and (max-width: 900px){
+.composition_photo{
+	 pointer-events: none;
+}
 }
 	.Content_Block_3{
 position: absolute;
@@ -329,6 +343,11 @@ clip-path: polygon(0 22%, 100% 11%, 100% 100%, 0 100%);
   .Card:hover .Card-side-back{
     transform: rotateY(0deg);
   }
+  @media only screen and (max-width: 900px){
+.Card{
+	 pointer-events: none;
+}
+  }
   .Card-2{
      perspective: 150rem;
     -moz-perspective:150rem;
@@ -371,6 +390,11 @@ clip-path: polygon(0 22%, 100% 11%, 100% 100%, 0 100%);
   }
   .Card-2:hover .Card-side-back-2{
     transform: rotateY(0deg);
+  }
+   @media only screen and (max-width: 900px){
+.Card-2{
+	 pointer-events: none;
+}
   }
    .Card-3{
     perspective: 150rem;
@@ -415,6 +439,11 @@ clip-path: polygon(0 22%, 100% 11%, 100% 100%, 0 100%);
   }
   .Card-3:hover .Card-side-back-3{
     transform: rotateY(0deg);
+  }
+   @media only screen and (max-width: 900px){
+.Card-3{
+	 pointer-events: none;
+}
   }
   .Content_Block_4{
    color: white;
@@ -665,12 +694,12 @@ h1 {
 
 @media only screen and (max-width: 768px){
   .box{
-    left: 100%;
+    left: 105%;
   }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 376px){
   .box{
-    left: 173%;
+    left: 170%;
   }
 }
 .fixed{
@@ -707,10 +736,14 @@ h1 {
 
 @media only screen and (max-width: 768px){
   .overlay{
+    width: 210rem;
+  }
+}
+@media only screen and (max-width: 376px){
+  .overlay{
     width: 150rem;
   }
 }
-
 .popup h2 {
   margin-top: 0;
   color: #333;
