@@ -619,7 +619,8 @@ visibility: visible;
     width: 50rem;
   }
   .Review-text-2{
-    left: 50%;
+    left: 37%;
+    width: 50rem;
   }
 }
 @media only screen and (max-width: 376px){
