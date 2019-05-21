@@ -39,7 +39,7 @@ html{
 }
   @media only screen and (max-width: 1025px){
 .Content_Block_1{
-  width: 117%;
+  width: 123%;
  }
  .title{
   font-size: 9rem;
@@ -48,7 +48,7 @@ html{
 }
 @media only screen and (max-width: 813px){
 .Content_Block_1{
-  width: 142%;
+  width: 149%;
  }
  .title{
   font-size: 8rem;
@@ -294,14 +294,14 @@ top: 130%;
 @media only screen and (max-width: 813px){
   .mountain{
     top: 60%;
-left: 75%;
+left: 85%;
   }
   .waterfall{
-left: 75%;
+left: 85%;
 top: 92.5%;
   }
   .forest{
-left:75%;
+left:85%;
 top: 125%;
   }
 }
@@ -360,26 +360,26 @@ clip-path: polygon(0 22%, 100% 11%, 100% 100%, 0 100%);
 	}
  @media only screen and (max-width: 1025px){
 .Content_Block_3{
-  width: 132%;
+  width: 136%;
   left: -15%;
  }
 }
 @media only screen and (max-width: 813px){
 .Content_Block_3{
-  width: 157%;
+  width: 170%;
   left: -15%;
   height: 105%;
  }
 }
 @media only screen and (max-width: 768px){
   .Content_Block_3{
-    width: 280%;
+    width: 295%;
     height: 110vh;
   }
 }
 @media only screen and (max-width: 376px){
   .Content_Block_3{
-    width: 414%;
+    width: 430%;
   }
 }
 
@@ -851,18 +851,19 @@ h1 {
   position: absolute;
   top: 330%;
   left: 43%;
-
 }
 @media only screen and (max-width: 1025px){
  h1{
   left: 35%;
   width: 50rem;
  }
+}
  @media only screen and (max-width: 813px){
  h1{
   left: 40%;
   width: 50rem;
  }
+}
 @media only screen and (max-width: 768px){
  h1{
   left: 110%;
@@ -889,19 +890,6 @@ h1 {
   left: 28%;
 }
 
-.Click {
-  font-size: 1rem;
-  padding: 1rem;
-  color: #fff;
-  border: .2rem solid #06D85F;
-  border-radius: 2rem/5rem;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-}
-.Click:hover {
-  background: #06D85F;
-}
 @media only screen and (max-width: 1025px){
   .box{
     left: 22%;
@@ -924,10 +912,18 @@ h1 {
     left: 170%;
   }
 }
-.fixed{
-  position: fixed !important;
-  top: 0rem;
-  right: 0rem;
+.Click {
+  font-size: 1rem;
+  padding: 1rem;
+  color: #fff;
+  border: .2rem solid #06D85F;
+  border-radius: 2rem/5rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.Click:hover {
+  background: #06D85F;
 }
 
 .overlay {
